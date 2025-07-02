@@ -1,4 +1,5 @@
+require('dotenv').config(); 
+
 module.exports = {
-    mongo_url:"mongodb://nnavedijaz480:tayyab5588@ac-ge6iaez-shard-00-00.oldzi2q.mongodb.net:27017,ac-ge6iaez-shard-00-01.oldzi2q.mongodb.net:27017,ac-ge6iaez-shard-00-02.oldzi2q.mongodb.net:27017/?ssl=true&replicaSet=atlas-gw4dx5-shard-0&authSource=admin&retryWrites=true&w=majority"
-    // mongo_url:"mongodb+srv://betterlogics:bll0077@atlascluster.do89alp.mongodb.net/?retryWrites=true&w=majority"
-}
+  mongo_url: process.env.MONGO_URL
+};
