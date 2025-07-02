@@ -1,0 +1,35 @@
+
+.reg_input{
+    width: 100%;
+    border: 1px solid  #EAE8FD;
+    border-radius: 10px;
+    background-color: transparent;
+    /* border: none; */
+    outline: none;
+    padding: 10px 10px 10px 30px;
+  }
+
+  .reg_inn_icon{
+    position: absolute;
+    top: 16px;
+    left: 10px;
+  }
+
+  .login_btn{
+    border-radius: 10px;
+    background-color: #7065F0;
+    padding: 10px 15px ;
+    width: 100%;
+  border: none;
+  }
+
+  .login_card{
+    border: 1px solid #F1F0FE;
+    box-shadow: 0px 10px 20px 0px #100A551A;
+    border-radius: 14px;
+    padding: 20px ;
+  }
+
+  .login_page{
+    padding: 50px 0px ;
+  }

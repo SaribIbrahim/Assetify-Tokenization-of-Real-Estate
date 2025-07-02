@@ -1,0 +1,85 @@
+
+.features_main{
+    padding: 40px 0;
+}
+
+.feature_card{
+    border: 1px solid  #F1F0FE;
+    /* box-shadow: 0px 10px 20px 0px #100A551A; */
+background-color: white;
+border-radius: 14px ;
+transition: all 0.5s;
+padding-bottom: 1rem;
+}
+.feature_card:hover{
+    box-shadow: 0px 10px 20px 0px #100A551A;
+
+}
+
+.disabled{
+    pointer-events: none; /* Prevents clicks */
+  opacity: 0.6; /* Visual feedback for disabled state */
+  cursor: not-allowed;
+}
+
+.prop_dou{
+    background: #7065F0;
+    border-radius: 5px;
+    padding: 2px 15px ;
+    border: none;
+    transition: all 0.5s;
+    color: white;
+
+}
+
+.second_on{
+    margin-left: -5px;
+}
+.prop_dou:hover {
+    border: 1px solid #7065F0;
+    background-color: transparent;
+    color: #7065F0
+    ;
+}
+.feature_img{
+    width: 100%;
+    height: 215px;
+    border-top-right-radius: 14px;
+    border-top-left-radius: 14px;
+    
+}
+
+.heart_icon{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.reportIcon{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 60px;
+    top: 10px;
+}
+
+
+.Browse_btn{
+    color: #F1F0FE;
+    background: #7065F0;
+    border-radius: 10px;
+    padding: 15px ;
+    border: none;
+}

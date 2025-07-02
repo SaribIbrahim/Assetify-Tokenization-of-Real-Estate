@@ -1,0 +1,50 @@
+
+.setting_side_bar{
+    border: 1px solid #F1F0FE;
+    border-radius: 14px;
+    padding: 20px ;
+}
+
+.inner_setting_bar{
+  
+    border: 1px solid #F1F0FE;
+    border-radius: 14px;
+    padding: 15px 10px ;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+
+.inner_setting_bar:hover{
+    background: #7065F0;
+    color: white;
+}
+
+.inner_setting_bar:hover.text_clr{
+    color: white !important;
+}
+.pinfo_icon_edit{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    color: #7065F0;
+}
+
+
+.pm_img1{
+    width: 100%;
+    height: 230px;
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+
+}
+
+
+.homeppage{
+    padding: 40px 0;
+}
+
+.side_bar_top{
+    position: sticky;
+    top: 0 !important;
+}

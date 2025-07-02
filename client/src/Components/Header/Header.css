@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.popfont{
+    font-family: "Poppins", sans-serif !important;
+}
+
+.intfont{
+    font-family: "Inter", sans-serif !important;
+}
+
+.mainclr{
+    color: #100a55 ;
+}
+
+.main_nav{
+    background: white !important;
+    border-bottom: 1px solid #100a55;
+}
+
+.main_head_inp{
+    background-color: transparent;
+    border: 2px solid #100a55;
+    border-radius: 12px;
+    transition: all 1s;
+    width: 120px;
+    padding: 10px 25px ;
+    font-size: 18px;
+}
+.main_head_inp:focus{
+    width: 300px !important;
+}
+
+.main_head_inp::placeholder{
+    color: #100a55 !important;
+
+}
+
+.sea_icon{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    font-size: 18px;
+}
+
+.social_icons{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: #7065F0;
+    color: white;
+    
+}
+
+.col-class:hover{
+    color: #7065F0 !important;
+}
+
+
+
+.head_btn{
+    padding: 0px 25px;
+    /* display: inline-flex; */
+    font-size: 16px;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    background-color: #7065f0;
+    border: 1.5px solid #7065f0;
+    color: #f1f0fe;
+    height: 44px;
+    transition: all 0.3s linear;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    border-radius: 12px;
+}
+
+
+a{
+    text-decoration: none;
+}

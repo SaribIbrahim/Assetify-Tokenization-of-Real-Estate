@@ -1,0 +1,14 @@
+.admin_pannel_main{
+    padding: 40px 0px;
+}
+
+.property-form label{
+    color: #100a55;
+font-size: 18px ;
+text-transform: capitalize;
+font-weight: 700;
+width: 100% ;
+}
+property-form input{
+    width: 400px !important;
+}
